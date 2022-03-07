@@ -3,6 +3,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ![image](https://user-images.githubusercontent.com/45338397/157007452-11c7b05c-8c86-4a89-af65-655b62492d6e.png)
 
 
+## Stack
+React
+NextJS
+Redux
+Redux Toolkit
+Tailwind
+
+
 ## Getting Started
 
 First, run the development server:
