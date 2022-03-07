@@ -1,4 +1,4 @@
-import { IProduct } from "./../product/products.types";
+import { IProduct } from "../product/product.types";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 const initialState: IProduct[] = [];
@@ -17,4 +17,4 @@ export const cartSlice = createSlice({
 });
 
 export const cartReducer = cartSlice.reducer;
-export const cartAction = cartSlice.actions;
+export const cartActions = cartSlice.actions;
