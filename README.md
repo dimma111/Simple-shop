@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple shop
+Simple project using react (NextJS) and redux
 
 ![image](https://user-images.githubusercontent.com/45338397/157007452-11c7b05c-8c86-4a89-af65-655b62492d6e.png)
 
