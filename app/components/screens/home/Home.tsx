@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { useGetProductsQuery } from "../../../store/product/product.api";
+import CartDropdown from "./cart-dropdown/CartDropdown";
 import ProductItem from "./ProductItem";
 
 const Home: FC = () => {
@@ -11,6 +12,7 @@ const Home: FC = () => {
         <h1 className="text-2xl text-green-900 font-medium">
           Let's find your products
         </h1>
+        <CartDropdown />
       </div>
 
       {isLoading ? (
