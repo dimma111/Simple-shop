@@ -18,3 +18,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.anim-cart {
+  animation: bottom 0.4s;
+}
+
+@keyframes bottom {
+  from {
+    transform: translateY(440px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
